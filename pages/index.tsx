@@ -279,7 +279,7 @@ function ShieldIcon(props : any) {
 }
 
 
-function SkullIcon(props: any) {
+function SkullIcon(props : any) {
   return (
     <svg
       {...props}
