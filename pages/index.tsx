@@ -25,7 +25,7 @@ export default function Component() {
       <main className="relative z-10 flex-1">
         <section className="flex h-[70dvh] flex-col items-center justify-center px-6 sm:px-8 md:px-10">
           <h1 className="text-center text-4xl font-bold tracking-tight text-gray-200 sm:text-5xl md:text-6xl">
-            The Syndicate
+            The Sincitydicate
           </h1>
           <p className="mt-4 max-w-xl text-center text-lg text-gray-400">
             Unleash the Power of Unity. Join The Syndicate and Access High-Stakes Opportunities.
