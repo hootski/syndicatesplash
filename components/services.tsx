@@ -11,12 +11,12 @@ function Services() {
         <div className="rounded-lg bg-gray-800 p-6 shadow-lg">
           <BriefcaseIcon className="h-8 w-8 text-gray-400" />
           <h3 className="mt-4 text-xl font-bold text-gray-200">Winning Strategy Development</h3>
-          <p className="mt-2 text-gray-400">Our expert team, with proven victories, uses advanced models to maximize our group's winning chances.</p>
+          <p className="mt-2 text-gray-400">Our expert team, with proven victories, uses advanced models to maximize our group&rsquo;s chances of winning big.</p>
         </div>
         <div className="rounded-lg bg-gray-800 p-6 shadow-lg">
           <ShieldIcon className="h-8 w-8 text-gray-400" />
           <h3 className="mt-4 text-xl font-bold text-gray-200">Group Entry Management</h3>
-          <p className="mt-2 text-gray-400">We handle all logistics and enforce strict practices, ensuring every member’s picks are accurately managed for equal winning opportunities.</p>
+          <p className="mt-2 text-gray-400">We handle all logistics and enforce strict practices, ensuring all picks are accurately managed for maximum ROI.</p>
         </div>
         <div className="rounded-lg bg-gray-800 p-6 shadow-lg">
           <BoltIcon className="h-8 w-8 text-gray-400" />
