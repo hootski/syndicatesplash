@@ -9,6 +9,7 @@ import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 
+
 export default function Component() {
   return (
     <div className="relative flex min-h-[100dvh] flex-col overflow-hidden">
@@ -81,7 +82,7 @@ export default function Component() {
                   Joining The Syndicate was the best decision I ever made."
                 </blockquote>
                 <div className="mt-4 flex items-center">
-                  <img
+                  {/* <img
                     alt="Avatar"
                     className="h-10 w-10 rounded-full"
                     height={40}
@@ -91,7 +92,7 @@ export default function Component() {
                       objectFit: "cover",
                     }}
                     width={40}
-                  />
+                  /> */}
                   <div className="ml-4">
                     <div className="text-sm font-medium text-gray-200">Jane Doe</div>
                     <div className="text-sm text-gray-400">CEO, Acme Corp</div>
@@ -103,7 +104,7 @@ export default function Component() {
                   "The Syndicate's professionalism and strategic approach set them apart. Their expertise and attention to detail gave me confidence in every step of the process. Being part of The Syndicate isn’t just about the thrill of the game; it’s about knowing you’re in the best possible hands."
                 </blockquote>
                 <div className="mt-4 flex items-center">
-                  <img
+                  {/* <img
                     alt="Avatar"
                     className="h-10 w-10 rounded-full"
                     height={40}
@@ -113,7 +114,7 @@ export default function Component() {
                       objectFit: "cover",
                     }}
                     width={40}
-                  />
+                  /> */}
                   <div className="ml-4">
                     <div className="text-sm font-medium text-gray-200">John Smith</div>
                     <div className="text-sm text-gray-400">Founder, Syndicate Solutions</div>
@@ -125,7 +126,7 @@ export default function Component() {
                   "Joining The Syndicate was an eye-opener. Their smart strategies and professional management make it clear why they’re the best in the business. I’ve never felt more prepared and supported in any contest. The Syndicate’s elite team ensures that every member is part of a winning strategy."
                 </blockquote>
                 <div className="mt-4 flex items-center">
-                  <img
+                  {/* <img
                     alt="Avatar"
                     className="h-10 w-10 rounded-full"
                     height={40}
@@ -135,7 +136,7 @@ export default function Component() {
                       objectFit: "cover",
                     }}
                     width={40}
-                  />
+                  /> */}
                   <div className="ml-4">
                     <div className="text-sm font-medium text-gray-200">Michael Johnson</div>
                     <div className="text-sm text-gray-400">COO, Syndicate Enterprises</div>
