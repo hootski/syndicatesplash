@@ -6,6 +6,7 @@ import { Input } from './ui/input'
 import { Textarea } from './ui/textarea'
 import { forwardRef } from 'react'
 
+
 const Contact = forwardRef<HTMLFormElement>((props, ref) => {
 
     
@@ -61,6 +62,8 @@ const Contact = forwardRef<HTMLFormElement>((props, ref) => {
     </div>
   </section>
   )
-})
+});
+
+Contact.displayName = 'Contact'
 
 export default Contact
