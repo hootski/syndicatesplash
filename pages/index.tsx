@@ -20,17 +20,7 @@ export default function Component() {
           <SkullIcon className="h-6 w-6 text-gray-400" />
           <span className="ml-2 text-lg font-medium text-gray-400">Syndicate</span>
         </Link>
-        <nav className="hidden space-x-4 sm:flex">
-          {/* <Link className="text-sm font-medium text-gray-400 hover:text-gray-300" href="#">
-            Services
-          </Link>
-          <Link className="text-sm font-medium text-gray-400 hover:text-gray-300" href="#">
-            About
-          </Link>
-          <Link className="text-sm font-medium text-gray-400 hover:text-gray-300" href="#">
-            Contact
-          </Link> */}
-        </nav>
+       
         <Button className="hidden sm:inline-flex">
           Join the Syndicate
         </Button>
@@ -77,23 +67,13 @@ export default function Component() {
     <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
       <div className="rounded-lg bg-gray-800 p-6 shadow-lg">
         <blockquote className="text-gray-400">
-          &quot;Winning with The Syndicate was a life-changing experience! When we hit the $10 million jackpot, 
-          the entire process was seamless and professional. The Syndicate&rsquo;s expert management and transparent 
+          Winning with The Syndicate was a life-changing experience! When we hit the $10 million jackpot, 
+          the entire process was seamless and professional. The Syndicates expert management and transparent 
           distribution of the winnings meant that everyone in our group felt like a true winner. 
-          Joining The Syndicate was the best decision I ever made.&quot;
+          Joining The Syndicate was the best decision I ever made.
         </blockquote>
         <div className="mt-4 flex items-center">
-          {/* <Image
-            alt="Avatar"
-            className="h-10 w-10 rounded-full"
-            height={40}
-            src="/placeholder.svg"
-            style={{
-              aspectRatio: "40/40",
-              objectFit: "cover",
-            }}
-            width={40}
-          /> */}
+         
           <div className="ml-4">
             <div className="text-sm font-medium text-gray-200">Jane Doe</div>
             <div className="text-sm text-gray-400">CEO, Acme Corp</div>
@@ -102,7 +82,10 @@ export default function Component() {
       </div>
       <div className="rounded-lg bg-gray-800 p-6 shadow-lg">
         <blockquote className="text-gray-400">
-          &quot;The Syndicate&apos;s professionalism and strategic approach set them apart. Their expertise and attention to detail gave me confidence in every step of the process. Being part of The Syndicate isn&rsquo;t just about the thrill of the game; it&rsquo;s about knowing you&rsquo;re in the best possible hands.&quot;
+          The Syndicates professionalism and strategic approach set them apart. 
+          Their expertise and attention to detail gave me confidence in every step of the process. 
+          Being part of The Syndicate isn&t just about the thrill of the game; it about knowing youre in the 
+          best possible hands.
         </blockquote>
         <div className="mt-4 flex items-center">
           {/* <Image
@@ -124,7 +107,9 @@ export default function Component() {
       </div>
       <div className="rounded-lg bg-gray-800 p-6 shadow-lg">
         <blockquote className="text-gray-400">
-          &quot;Joining The Syndicate was an eye-opener. Their smart strategies and professional management make it clear why they&rsquo;re the best in the business. I&rsquo;ve never felt more prepared and supported in any contest. The Syndicate&rsquo;s elite team ensures that every member is part of a winning strategy.&quot;
+          Joining The Syndicate was an eye-opener. Their smart strategies and professional management
+           make it clear why theye the best in the business. I never felt more prepared and supported in any contest. 
+           The Syndicates elite team ensures that every member is part of a winning strategy.
         </blockquote>
         <div className="mt-4 flex items-center">
           {/* <Image
