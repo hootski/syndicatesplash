@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button"
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
+import Image from "next/image"
 
 
 export default function Component() {
@@ -69,83 +70,84 @@ export default function Component() {
           </div>
         </section>
         <section className="bg-gray-900 py-16 px-6 sm:px-8 md:px-10">
-          <div className="mx-auto max-w-7xl">
-            <h2 className="text-center text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl">
-              What Our Members Say
-            </h2>
-            <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
-              <div className="rounded-lg bg-gray-800 p-6 shadow-lg">
-                <blockquote className="text-gray-400">
-                  "Winning with The Syndicate was a life-changing experience! When we hit the $10 million jackpot, 
-                  the entire process was seamless and professional. The Syndicate’s expert management and transparent 
-                  distribution of the winnings meant that everyone in our group felt like a true winner. 
-                  Joining The Syndicate was the best decision I ever made."
-                </blockquote>
-                <div className="mt-4 flex items-center">
-                  {/* <img
-                    alt="Avatar"
-                    className="h-10 w-10 rounded-full"
-                    height={40}
-                    src="/placeholder.svg"
-                    style={{
-                      aspectRatio: "40/40",
-                      objectFit: "cover",
-                    }}
-                    width={40}
-                  /> */}
-                  <div className="ml-4">
-                    <div className="text-sm font-medium text-gray-200">Jane Doe</div>
-                    <div className="text-sm text-gray-400">CEO, Acme Corp</div>
-                  </div>
-                </div>
-              </div>
-              <div className="rounded-lg bg-gray-800 p-6 shadow-lg">
-                <blockquote className="text-gray-400">
-                  "The Syndicate's professionalism and strategic approach set them apart. Their expertise and attention to detail gave me confidence in every step of the process. Being part of The Syndicate isn’t just about the thrill of the game; it’s about knowing you’re in the best possible hands."
-                </blockquote>
-                <div className="mt-4 flex items-center">
-                  {/* <img
-                    alt="Avatar"
-                    className="h-10 w-10 rounded-full"
-                    height={40}
-                    src="/placeholder.svg"
-                    style={{
-                      aspectRatio: "40/40",
-                      objectFit: "cover",
-                    }}
-                    width={40}
-                  /> */}
-                  <div className="ml-4">
-                    <div className="text-sm font-medium text-gray-200">John Smith</div>
-                    <div className="text-sm text-gray-400">Founder, Syndicate Solutions</div>
-                  </div>
-                </div>
-              </div>
-              <div className="rounded-lg bg-gray-800 p-6 shadow-lg">
-                <blockquote className="text-gray-400">
-                  "Joining The Syndicate was an eye-opener. Their smart strategies and professional management make it clear why they’re the best in the business. I’ve never felt more prepared and supported in any contest. The Syndicate’s elite team ensures that every member is part of a winning strategy."
-                </blockquote>
-                <div className="mt-4 flex items-center">
-                  {/* <img
-                    alt="Avatar"
-                    className="h-10 w-10 rounded-full"
-                    height={40}
-                    src="/placeholder.svg"
-                    style={{
-                      aspectRatio: "40/40",
-                      objectFit: "cover",
-                    }}
-                    width={40}
-                  /> */}
-                  <div className="ml-4">
-                    <div className="text-sm font-medium text-gray-200">Michael Johnson</div>
-                    <div className="text-sm text-gray-400">COO, Syndicate Enterprises</div>
-                  </div>
-                </div>
-              </div>
-            </div>
+  <div className="mx-auto max-w-7xl">
+    <h2 className="text-center text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl">
+      What Our Members Say
+    </h2>
+    <div className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3">
+      <div className="rounded-lg bg-gray-800 p-6 shadow-lg">
+        <blockquote className="text-gray-400">
+          &quot;Winning with The Syndicate was a life-changing experience! When we hit the $10 million jackpot, 
+          the entire process was seamless and professional. The Syndicate&rsquo;s expert management and transparent 
+          distribution of the winnings meant that everyone in our group felt like a true winner. 
+          Joining The Syndicate was the best decision I ever made.&quot;
+        </blockquote>
+        <div className="mt-4 flex items-center">
+          {/* <Image
+            alt="Avatar"
+            className="h-10 w-10 rounded-full"
+            height={40}
+            src="/placeholder.svg"
+            style={{
+              aspectRatio: "40/40",
+              objectFit: "cover",
+            }}
+            width={40}
+          /> */}
+          <div className="ml-4">
+            <div className="text-sm font-medium text-gray-200">Jane Doe</div>
+            <div className="text-sm text-gray-400">CEO, Acme Corp</div>
           </div>
-        </section>
+        </div>
+      </div>
+      <div className="rounded-lg bg-gray-800 p-6 shadow-lg">
+        <blockquote className="text-gray-400">
+          &quot;The Syndicate&apos;s professionalism and strategic approach set them apart. Their expertise and attention to detail gave me confidence in every step of the process. Being part of The Syndicate isn&rsquo;t just about the thrill of the game; it&rsquo;s about knowing you&rsquo;re in the best possible hands.&quot;
+        </blockquote>
+        <div className="mt-4 flex items-center">
+          {/* <Image
+            alt="Avatar"
+            className="h-10 w-10 rounded-full"
+            height={40}
+            src="/placeholder.svg"
+            style={{
+              aspectRatio: "40/40",
+              objectFit: "cover",
+            }}
+            width={40}
+          /> */}
+          <div className="ml-4">
+            <div className="text-sm font-medium text-gray-200">John Smith</div>
+            <div className="text-sm text-gray-400">Founder, Syndicate Solutions</div>
+          </div>
+        </div>
+      </div>
+      <div className="rounded-lg bg-gray-800 p-6 shadow-lg">
+        <blockquote className="text-gray-400">
+          &quot;Joining The Syndicate was an eye-opener. Their smart strategies and professional management make it clear why they&rsquo;re the best in the business. I&rsquo;ve never felt more prepared and supported in any contest. The Syndicate&rsquo;s elite team ensures that every member is part of a winning strategy.&quot;
+        </blockquote>
+        <div className="mt-4 flex items-center">
+          {/* <Image
+            alt="Avatar"
+            className="h-10 w-10 rounded-full"
+            height={40}
+            src="/placeholder.svg"
+            style={{
+              aspectRatio: "40/40",
+              objectFit: "cover",
+            }}
+            width={40}
+          /> */}
+          <div className="ml-4">
+            <div className="text-sm font-medium text-gray-200">Michael Johnson</div>
+            <div className="text-sm text-gray-400">COO, Syndicate Enterprises</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
         <section className="bg-gray-900 py-16 px-6 sm:px-8 md:px-10">
           <div className="mx-auto max-w-7xl">
             <h2 className="text-center text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl">Contact Us</h2>
