@@ -8,9 +8,6 @@ import { Button } from "@/components/ui/button"
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import Image from "next/image"
-
-
 export default function Component() {
   return (
     <div className="relative flex min-h-[100dvh] flex-col overflow-hidden">
@@ -44,7 +41,7 @@ export default function Component() {
               <div className="rounded-lg bg-gray-800 p-6 shadow-lg">
                 <BriefcaseIcon className="h-8 w-8 text-gray-400" />
                 <h3 className="mt-4 text-xl font-bold text-gray-200">Winning Strategy Development</h3>
-                <p className="mt-2 text-gray-400">Our team of experts develops strategies to maximize our group's chances of winning, leveraging data analysis and insider knowledge.</p>
+                <p className="mt-2 text-gray-400">Our team of experts develops strategies to maximize our groups chances of winning, leveraging data analysis and insider knowledge.</p>
               </div>
               <div className="rounded-lg bg-gray-800 p-6 shadow-lg">
                 <ShieldIcon className="h-8 w-8 text-gray-400" />
@@ -88,17 +85,7 @@ export default function Component() {
           best possible hands.
         </blockquote>
         <div className="mt-4 flex items-center">
-          {/* <Image
-            alt="Avatar"
-            className="h-10 w-10 rounded-full"
-            height={40}
-            src="/placeholder.svg"
-            style={{
-              aspectRatio: "40/40",
-              objectFit: "cover",
-            }}
-            width={40}
-          /> */}
+   
           <div className="ml-4">
             <div className="text-sm font-medium text-gray-200">John Smith</div>
             <div className="text-sm text-gray-400">Founder, Syndicate Solutions</div>
@@ -112,17 +99,7 @@ export default function Component() {
            The Syndicates elite team ensures that every member is part of a winning strategy.
         </blockquote>
         <div className="mt-4 flex items-center">
-          {/* <Image
-            alt="Avatar"
-            className="h-10 w-10 rounded-full"
-            height={40}
-            src="/placeholder.svg"
-            style={{
-              aspectRatio: "40/40",
-              objectFit: "cover",
-            }}
-            width={40}
-          /> */}
+       
           <div className="ml-4">
             <div className="text-sm font-medium text-gray-200">Michael Johnson</div>
             <div className="text-sm text-gray-400">COO, Syndicate Enterprises</div>
